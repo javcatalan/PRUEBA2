@@ -1,0 +1,33 @@
+a:link {
+  color: green;
+  font-weight: bold;
+}
+a:visited {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* usuario mueve el raton sobre un enlace */
+a:hover {
+  background-color: cyan;
+  padding: 2px;
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+/* usuario mueve el raton sobre un div y resalta todo */
+div:hover a {
+  background-color: steelblue;
+  color: white;
+}
+div:hover{background-color: coral;}
+div:hover p{
+  font-size: 50px;
+}
+a:active,  div:active{
+  border: 2px solid #f00;
+  padding: 2px;
+}

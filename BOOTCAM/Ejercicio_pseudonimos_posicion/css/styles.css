@@ -1,0 +1,13 @@
+ol li:first-child {
+  color: green;
+}
+ol li:last-child {
+  color: red;
+}
+ol li:nth-child(3n + 5) {
+  background-color: yellow;
+}
+ol:li:nth-last-child(4){
+    background-color: violet;
+}
+

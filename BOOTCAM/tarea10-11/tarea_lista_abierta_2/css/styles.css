@@ -1,0 +1,17 @@
+*{
+    margin: 0pt;
+    padding: 0pt;
+    font-family: fantasy;
+
+}
+
+div{
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 500px;
+    height: 600px;
+    display: block;
+    border: 1px solid black;
+    font-family: fantasy;
+    padding: 25px;
+}

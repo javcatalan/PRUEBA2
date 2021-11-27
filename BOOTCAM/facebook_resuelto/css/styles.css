@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Irish Grover", cursive;
+  font-family: "Nunito", sans-serif;
+}
+.mt-2 {
+  margin: 20px;
+}
+.mb-2 {
+  margin-bottom: 20px;
+}
+.w-50 {
+  display: inline-block;
+  width: 70px;
+}
+header {
+  height: 100px;
+  background-color: #4d6eaa;
+}
+body {
+  background-color: #ecf0f2;
+}
+header .container {
+  padding: 30px;
+}
+header img {
+  float: left;
+  margin-top: 5px;
+}
+header form {
+  float: right;
+}
+#form_login span {
+  position: relative;
+}
+#form_login span::after {
+  position: absolute;
+  left: 0px;
+  top: -20px;
+  color: white;
+  font-size: small;
+}
+#username::after {
+  content: "Email or phone";
+}
+#contrasena::after {
+  content: "Password";
+}
+#form_login input[type="submit"] {
+  background-color: #5f80b5;
+  color: white;
+  border: 2px solid #456496;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+#form_login a {
+  color: rgba(255, 255, 255, 0.815);
+  display: block;
+  text-decoration: none;
+  margin-left: 42%;
+  margin-top: 5px;
+  font-size: small;
+}
+#form_login span > input {
+  border: none;
+  width: 180px;
+}
+
+/* cuerpo */
+main {
+  padding: 2%;
+}
+main form {
+  width: 400px;
+  float: right;
+}
+main .inline > * {
+  float: left;
+  width: 46%;
+}
+main.inline > *last-child {
+  float: right;
+}
+main .block {
+  display: inline-block;
+  width: 98%;
+}
+br {
+  clear: both;
+}
+/* personalizacion de formulario */
+#form_register input[type="text"],
+#form_register input[type="password"],
+#form_register input[type="date"] {
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  /* outline:1px solid grey;  */
+  box-shadow: 0px 0px 0px black;
+  margin: 7px 4px;
+  padding: 0px 1%;
+}
+#form_register .info,
+#form_register .a {
+  font-size: smaller;
+}
+#form_register input[type="submit"] {
+  margin-top: 20px;
+  background: linear-gradient(#72aa5e, #4cc720);
+  border: 1px solid #436437;
+  padding: 5px 30px;
+  border-radius: 5px;
+  width: 50%;
+}

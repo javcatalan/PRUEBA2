@@ -1,0 +1,10 @@
+#impares:nth-child(odd) {
+  text-decoration: underline;
+}
+#impares li:nth-child(even) {
+  text-decoration: line-through;
+}
+
+#multiplos li:nth-child(4n) {
+  color: green;
+}

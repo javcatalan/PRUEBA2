@@ -1,0 +1,28 @@
+/* div#pagina div {
+  background-color: blue;
+} */
+/* #pagina > div{
+    border: 2px solid blue;
+} */
+div.articulo strong + span{
+    color: #6ceedd;
+}
+
+div.articulo span ~ span{
+    color: blue;
+}
+
+  
+u{
+    display: block;
+}
+
+#julio + p {
+    background-color: orange;
+}
+#diana + p {
+    color: green;
+}
+#freddy ~ u {
+    color: blue;
+}

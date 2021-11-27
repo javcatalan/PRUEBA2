@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  padding: 10%;
+  background-color: gray;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: auto;
+  visibility: visible;
+  display: inline-block;
+}
+#caja-1 {
+  background-color: aliceblue;
+}
+#caja-2 {
+  background-color: aqua;
+  opacity: .2;
+}
+#caja-3{
+    background-color: chartreuse;
+}

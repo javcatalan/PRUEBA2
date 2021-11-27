@@ -1,0 +1,24 @@
+*{
+    margin: 0pt;
+    padding: 0pt;
+    font-family: monospace;
+}
+div{
+    margin-left: 20%;
+    margin-top: 100px;
+    width: 550px;
+    height: 400px;
+    box-shadow: 5px 5px 2px #00000093;
+    border: 2px solid gray;
+    
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+hr{
+    color: gray;
+}

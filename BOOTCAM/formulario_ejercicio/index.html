@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script
+      src="https://kit.fontawesome.com/3dce716587.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1> LOGIN <br><br> <i class="fas fa-lock"></i> </h1>
+      <br><br>
+
+      <form action="formulario" method="post" action="/send.php">
+        <input
+          type="text"
+          name="Username"
+          placeholder="Username"
+          class="campos"
+        />
+        <br /><br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          class="campos"
+        />
+        <br />
+        <input
+          type="checkbox"
+          name="keep me logged in"
+          placeholder="Keep me logged in"
+          id="check"
+        />
+        <label>keep me login in</label>
+        <br /><br>
+        <button type="button" value="enviar">
+          <i class="fas fa-sign-in-alt"></i> SING IN
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

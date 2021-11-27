@@ -1,0 +1,18 @@
+div, select {
+    margin: 8px;
+}
+/* label for chequet inputs */
+input:checked + label {color: red;}
+
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px orange;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px rgb(55, 28, 179);
+}
+
+option:checked{
+    box-shadow: 0 0 0 3px lime;
+    color: magenta;
+}

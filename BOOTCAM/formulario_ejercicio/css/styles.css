@@ -1,0 +1,50 @@
+* {
+  border: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  height: 30%;
+  background-color: #42a3f4;
+  color: white;
+  border-radius: 10px;
+  padding: 50px 0px 0px 0px;
+  display: block;
+}
+div {
+  width: 500px;
+  height: 500px;
+  background-color: #7d7d7d;
+  margin: 50px 450px;
+  border-radius: 10px;
+}
+.campos {
+  border-radius: 6px;
+  width: 80%;
+  height: 40px;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+button {
+  background-color: #42a3f4;
+  color: #fff;
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 2px 2px 10px gray;
+}
+#check {
+  margin-left: 10%;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+label {
+  color: white;
+}

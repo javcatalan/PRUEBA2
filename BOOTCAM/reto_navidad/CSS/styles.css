@@ -1,0 +1,55 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: black;
+}
+#box {
+  width: 400px;
+  height: 250px;
+  margin-top: 21%;
+  margin-left: 35%;
+  position: relative;
+  background-image: url("../images/Captura15.PNG");
+}
+.cinta {
+  background-color: #fbfcffd8;
+  display: inline-block;
+  opacity: 0.9;
+  position: absolute;
+}
+.cinta:nth-child(1) {
+  height: 250px;
+  width: 50px;
+  left: 175px;
+}
+.cinta:nth-child(2) {
+  height: 50px;
+  width: 400px;
+  bottom: 125px;
+}
+.tapadera .cinta {
+  height: 100px;
+  width: 50px;
+}
+.tapadera {
+  background-image: url(../images/Captura15.PNG);
+  height: 100px;
+  width: 400px;
+  display: block;
+  margin-top: 15%;
+  margin-left: 35%;
+  position: absolute;
+}
+.tapadera:hover {
+  top: -90px;
+  border: none;
+}
+#text {
+  top: -90px;
+  position: relative;
+  z-index: -5;
+  text-align: center;
+  color: lime;
+}

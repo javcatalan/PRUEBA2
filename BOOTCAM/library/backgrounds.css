@@ -1,0 +1,16 @@
+/* Fondos de color */
+.bg-primary{
+    background: var(blue);
+}
+.bg-secondary{
+    background: var(yellow);
+}
+.bg-info{
+    background: var(orange);
+}
+.bg-danger{
+    background: var(#fff);
+}
+.bg-success{
+    background: var(green);
+}

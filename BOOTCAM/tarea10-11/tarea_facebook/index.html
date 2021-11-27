@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <fieldset id="ingresar">
+
+
+        <form action="/send.php" name="formulario" enctype="multipart/form-data">
+        
+            <div id="account">
+                <input type="text" name="Email or phone" >
+            </div>
+                
+         <div id="password">
+            <input type="password" name="password">
+         </div>
+            <input id="loginbotton" type="submit" name="Log in" value="Log in">
+            <br>      
+            <a href="#" id="forgotten">Forgotten account?</a>
+            
+    </fieldset>
+    
+   <fieldset id="crear">
+
+
+</form>
+
+<form action="/send.php" name="Create new account" enctype="multipart/form-data">
+
+    <h1>Create new account</h1>
+    <p>It´s free and always will be</p>
+
+    <input type="text" name="First name" placeholder="First name">
+    <input type="text" name="Sumama" placeholder="Your name">
+    <br><br>
+    <input type="text" name="Mobile number or email address" placeholder="Mobile number or email addres">
+    <br><br>
+    <input type="password" name="password" placeholder="Password">
+    <br><br>
+
+    Birthday
+    <br><br>
+    <input type="date" name="birthday" >
+    <a href="#">Why do I need to provide my date of birth?</a>
+<br><br>
+    <input type="radio" name="sexo" aria-valuemax="female" >Female
+    <input type="radio" name="sexo" value="male">Male
+    <br><br>
+    <p>By dicking create acount you agree to our termis and confirm that you have read our Data policy, includinf our code use poley. You may receve SMS message notification from Facebbok and con option at any free.</p>
+<br>
+    <input id= "createbotton" type="submit" name="Create Account" value="Create acount" >                    
+
+   </fieldset>
+
+    
+    
+    
+    </form>
+    
+</body>
+</html>

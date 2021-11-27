@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+#ingresar {
+  background-color: #4d6eaa;
+}
+#crear {
+  background-color: #ecf0f2;
+  padding-left: 150px;
+}
+
+#forgotten {
+  text-align: center;
+  color: #fff;
+  margin-left: 320px;
+}
+
+#account {
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+#password {
+  position: relative;
+  display: inline-block;
+}
+
+#account::after {
+  content: "Email or phone";
+  position: absolute;
+  display: block;
+  background:transparent;
+  width: 145px;
+  height: 20px;
+  margin-top: -50px;
+  color: #fff;
+}
+
+#password::after {
+  content: "Password";
+  display: block;
+  background-color: transparent;
+  position: absolute;
+  width: 130px;
+  height: 20px;
+  margin-top: -50px;
+  color: #fff;
+}
+p{
+    font-size: 10px;
+    color: gray;
+
+}
+a{
+    font-size: 12px;
+
+}
+#loginbotton{
+    color: #fff;
+    background-color: #5f80b5;
+}
+#createbotton{
+    color: #fff;
+    background-color: #72aa57;
+    width: 150px;
+    height: 30px;
+}

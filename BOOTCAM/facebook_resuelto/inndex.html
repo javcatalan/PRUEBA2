@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Nunito:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <header>
+    <div class="container">
+      <img
+        src="http://www.thebraininjane.com/wp-content/uploads/2020/07/featured_facebook.jpg "
+        alt="logo"
+        width="75px"
+      />
+      <form id="form_login" method="post" action="login.php">
+        <span id="username">
+          <input type="text" name="username" />
+        </span>
+
+        <span id="contrasena">
+          <input type="password" name="password" />
+        </span>
+        <input type="submit" name="Log In" />
+        <a href="#">Forgotten account</a>
+      </form>
+    </div>
+  </header>
+
+  <main id="form_register">
+    <form action="register" method="post">
+      <h1>Create a new account</h1>
+      <p>It´s free and always will be</p>
+      <div class="inline">
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Surname" />
+      </div>
+      <br />
+      <input
+        class="block"
+        type="text"
+        placeholder="Mobile number or email address"
+      />
+      <input
+        class="block"
+        type="password"
+        name="password"
+        placeholder="password"
+      />
+      <h4>Biryhday</h4>
+
+      <div>
+        <input type="date" name="birthday" />
+        <a href="#">why do I need to provide my date of birh</a>
+      </div>
+      <div class="inline .w50">
+        <label for="opt_female">
+          <input id="opt_female" type="radio" name="sex" value="female" />
+          female
+        </label>
+        <label for="opt_male">
+          <input id="opt_male" type="radio" name="sex" value="male" />
+          male
+        </label>
+      </div>
+      <br />
+
+      <p class="info">
+        By clicking create acount you agree to our <a href="">terms</a> and
+        confirm that you have read our <a href="#">Data policy</a>, including
+        our <a href="">cookie use policy</a>. You may receve SMS message
+        notification from Facebook and can opt our any time.
+      </p>
+      <input type="submit" value="Create account" />
+    </form>
+  </main>
+  <body></body>
+</html>

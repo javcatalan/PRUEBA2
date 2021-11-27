@@ -1,0 +1,17 @@
+a:hover{ 
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+a{
+    display: block;
+    width: 100px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+a:link{
+    color: crimson;
+}

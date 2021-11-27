@@ -1,0 +1,34 @@
+h1,
+h2 {
+  color: crimson;
+}
+p {
+  color: blue;
+}
+.sombra {
+  box-shadow: -5px -5px rgb(202, 175, 175);
+  border: 1px solid grey;
+  margin: 20px 0px;
+}
+ul li {
+  color: #ec8c0e;
+  font-family: cursive;
+}
+ol li {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: green;
+}
+p .badge-black {
+  background-color: black;
+  color: white;
+}
+
+.text-danger {
+  color: crimson;
+}
+.text-success {
+  color: green;
+}
+footer {
+  margin-top: 1px;
+}

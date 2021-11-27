@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="formulario" method="post" action="/send.php">
+      <label for="nombre de usuario"></label>
+
+      usuario:
+      <input type="text" name="nombre" placeholder="por ejemplo, juan" />
+      <!-- Campo de entrada de password -->
+
+      password:
+      <input type="password" name="pass" placeholder="contraseña" />
+      <!-- campo oculto: Este campo no se vere en el navegador -->
+      <input type="hidden" name="informacion" value="72625" />
+
+      <!-- campo de entrada de texto-->
+      telefono:
+      <input type="tel" name="telefono" placeholder="+xxx xxxxxxxx" />
+      <label for="numero de telefono"></label>
+      <!-- campo de entrada del email -->
+      email:
+      <input type="email" name="correo" placeholder=" nombre@dominio.com" />
+      <label for="correo electronico"></label>
+      <!-- campo de entrada de url -->
+      pagina web:
+      <input type="url" name="web" placeholder="https://pagina.com" />
+      <label for="mi pagina web"></label>
+
+      <label>Bio</label>
+      <textarea name="" id="" cols="15" rows="5" wrap="soft" spellcheck="true">
+      </textarea>
+
+      <input type="submit" value="enviar" />
+
+      <!-- numero entre 10 y 50, de 5 en 5.valor por defecto 25 -->
+      <label>Edad</label>
+      <input
+        type="number"
+        name="numero"
+        value="25"
+        min="10"
+        max="50"
+        step="5"
+      />
+      <br />
+      <!-- su misma version, utilizando el slider en un rango numerico -->
+      <label>Min. 10 Max. 50</label>
+      <input
+        type="range"
+        name="numrango"
+        value="25"
+        min="10"
+        max="50"
+        step="5"
+      />
+
+      <label>Acepto terminos y condiciiones</label>
+      <input type="checkbox" value="enviar" >
+    </form>
+  </body>
+</html>

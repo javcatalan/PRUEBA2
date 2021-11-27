@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h2>Personal Information</h2>
+      <hr>
+      <br>
+      <form name="formulario" action="/send.php" method="post">
+        First name:
+        <input type="text" name="First name" />
+        <br><br>
+        Middle name:
+        <input type="text" name="Middle name" />
+        <br><br>
+        Last name:
+        <input type="text" name="Last name" />
+
+        <br><br><br>
+<br>
+        <h2> <hr> Address</h2>
+        <br>
+        Address:
+        <input type="text" name="Address" />
+        <br><br>
+        City or town:
+        <input type="text" name="City or town" />
+        <br><br>
+        State:
+        <input type="text" list="items"  placeholder="Choose a state"/>
+        <datalist id="items">
+          <option value="1">Guatemala</option>
+          <option value="2">Peten</option>
+          <option value="3">izabal</option>
+          <option value="4">Sacatepequez</option>
+        </datalist>
+<br><br>
+        Zip code:
+        <input type="number" name="Zip code" />
+      </form>
+    </div>
+  </body>
+</html>

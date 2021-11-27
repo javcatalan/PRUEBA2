@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/stles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      name="formulario"
+      method="post"
+      action="/send.php "
+      enctype="multipart/form-data"
+    >
+      selcciona la fecha deseada:
+      <input
+        type="date"
+        name="fecha"
+        min="2018-03-25"
+        max="2018-05-05"
+        step="2"
+      />
+      selecciona la hora:
+      <input
+        type="time"
+        name="hora"
+        min="18:00"
+        max="21:00"
+        step="3600"
+        list="times"
+      />
+      <datalist id="">
+        <option value="17:00:00"></option>
+        <option value="18:00:00"></option>
+        <option value="19:00:00"></option>
+        <option value="20:00:00"></option>
+        <option value="21:00:00"></option>
+      </datalist>
+
+      seleccione el mes deseado:
+      <input
+        type="month"
+        name="mes"
+        value="2018-05"
+        min="2018-02"
+        max="2018-06"
+        step="2"
+      />
+
+      seleccione la semana deseada:
+      <input
+        type="week"
+        name="semana"
+        value="2018-W18"
+        min="2018-W18"
+        max="2018-W20"
+        step="2"
+      />
+
+      botone de opcion
+      <p>
+        sexo:
+        <input type="radio" name="sexo" value="H" id="" /> hombre
+        <input type="radio" name="sexo" value="F" id="" /> mujer
+      </p>
+      <input type="checkbox" name="empesa" checked id="" />
+      ?eres atonomo/empresa?
+      <br />
+
+      selecciona la opcion deseada:
+      <select name="combo">
+        <option value="1">opcion 1</option>
+        <option value="2" selected>opcion 2</option>
+        <option value="3">opcion 3</option>
+      </select>
+      <br /><br />
+      <select name="combo" multiples>
+        <optgroup label="opciones basicas">
+          <option value="1" label="opcion 1"></option>
+        </optgroup>
+        <optgroup label="opciones avanzadas">
+          <option value="2" label="opcion 2"></option>
+          <option value="3" label="opcion 3"></option>
+        </optgroup>
+      </select>
+      <br />
+
+      selecciona la lista
+      <input type="text" list="items" />
+      <datalist id="items">
+        <option value="1">opcion 1</option>
+        <option value="2">opcion 2</option>
+        <option value="3">opcion 3</option>
+      </datalist>
+
+      seleccione el color deseado
+      <input type="color" name="color" value="#FFF" />
+
+      <input type="file" name="adjunto" accept=".pdf,.jpg,.pgn multiple" />
+
+      <fieldset>
+        <legend>datos personales</legend>
+        <!-- campo de texto -->
+        nombre de usuario:
+        <input type="text" name="nombre" placeholder="Por Ejemplo:" tabindex="3" />
+apellidos:
+<input type="text" name="apellidos" tabindex="2">
+        <!-- 
+campo numerico
+   -->
+        edad:
+        <input type="number" name="edad" min="18" max="100" placeholder="18" tabindex="1"/>
+
+        <!-- boton radio de opcion -->
+        sexo:
+        <!-- primera opcion: -->
+        <input type="radio" name="sexo" value="h" />hombre
+        <!-- segunda opcion -->
+        <input type="radio" name="sexo" value="m" />mujer
+      </fieldset>
+    </form>
+  </body>
+</html>
